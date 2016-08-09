@@ -58,7 +58,7 @@ map.on('click', function (e) {
         .setHTML('<h3>' + "Funding Program: " + feature.properties.FundProgram + '</h3>' +
             '<li>' + '<b>Organization name </b>' + feature.properties.Org_Name + '</li>' +
             '<li>' + '<b>City Served </b>' + feature.properties.City + '</li>' +
-            '<li>' + '<b>Funding Year </b>' + feature.properties.FY + '</li>'
+            '<li>' + '<b>Funding Year </b>' + feature.properties.FY  + '</li>'
         )
         .addTo(map)
 
